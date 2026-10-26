@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" href="./assets/cloud.png" type="image/png">
+    <script src="script.js"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div>
+        <div class="appdiv">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name">
+                <button class="bx bx-search" id="searchbtn"></button>
+            </div>
+            <div class="nextdiv">
+            <img src="./assets/cloud.png" alt="image" id="Weather-img">
+            <p id="oops">Oops! Location Not Found!</p>
+            <div id="forhide">
+                <h1>00<span>°C</span></h1>
+            <p id="cityname">City</p>
+            <p id="weathr">Cloud</p>
+            <div class="details">
+                <div class="details1">
+                <i class='bx bx-water' ></i>
+                <div class="humadity">
+                <P>00%</P>
+                <P id="name">Humidity</P>
+                </div>
+                </div>
+                <div class="details2">
+                    <i class='bx bx-wind' ></i>
+                    <div class="wind">
+                        <p>0 Km/h</p>
+                        <p id="name">Wind Speed</p>
+                    </div>
+            </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
