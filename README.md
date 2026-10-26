@@ -6,6 +6,10 @@
 
 A modern and elegant weather dashboard built with HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeatherMap API and presents it in a clean glassmorphism-inspired UI.
 
+## 🌐 Live Demo
+
+View the project here: [Weather App Demo](https://sachin35544.github.io/Weather/)
+
 ## ✨ Features
 
 - Search weather by city name
